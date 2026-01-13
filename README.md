@@ -1,5 +1,29 @@
 # Microsoft 365 Identity & Access Security
 
+## Start Here
+
+If you are new to this repository, these are the key places to begin:
+
+- **Conditional Access Strategy**  
+  `identity/conditional-access-strategy.md`  
+  A practical view of how Microsoft 365 access should be secured using MFA, device trust, and risk-based controls.
+
+- **Admin Roles Model**  
+  `identity/admin-roles-model.md`  
+  How administrative access should be structured using least privilege and role separation.
+
+- **Conditional Access Export Script**  
+  `powershell/export-conditional-access-policies.ps1`  
+  A PowerShell script to review Conditional Access policies in a tenant.
+
+- **Admin Role Assignment Export Script**  
+  `powershell/export-admin-role-assignments.ps1`  
+  A PowerShell script to audit who has privileged access in Entra ID.
+
+These together show how identity is **designed, governed, and operated** in a secure Modern Workplace.
+
+
+
 This repository contains practical work focused on **Microsoft 365 identity, access control, and security** using Entra ID (Azure AD) and Conditional Access.
 
 It reflects how identity is designed, governed, and operated in real enterprise Modern Workplace environments.
